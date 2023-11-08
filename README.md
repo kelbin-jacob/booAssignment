@@ -1,4 +1,6 @@
 # bookAssignment
+
+GitClone repository link:https://github.com/kelbin-jacob/booAssignment.git
 This Node.js assignment involves performing basic CRUD (Create, Read, Update, Delete) operations using Express.js, MongoDb, and Mongoose.
 
 Project Structure
