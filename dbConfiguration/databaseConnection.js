@@ -9,5 +9,4 @@ async function connectToDatabase() {
     console.error("Error connecting to MongoDB:", error);
   }
 }
-connectToDatabase();
 module.exports = { connectToDatabase };

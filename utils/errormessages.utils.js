@@ -9,8 +9,22 @@ module.exports = {
   AUTHOR_MUST_BE_STRING: "Author must be string",
   AUTHOR_MUST_BE_LESSTHAN_25:
     "Author must be between 2 to 25 characters in lenth",
-  SUMMARY_IS_REQUIRED: "Summary is required",
-  SUMMARY_MUST_BE_STRING: "Summary must be string",
-  SUMMARY_MUST_BE_LESSTHAN_251:
-    "Summary must be between 3 to 250 characters length",
+  DESCRIPITION_IS_REQUIRED: "Descripition is required",
+  DESCRIPITION_MUST_BE_STRING: "Descripition must be string",
+  DESCRIPITION_MUST_BE_LESSTHAN_251:
+    "Descripition must be between 3 to 250 characters length",
+  PUBLISHEDYEAR_IS_REQUIRED: "published year is required",
+  PUBLISHEDYEAR_MUST_BE_NUMBER: "published year must be number",
+  USER_NOT_FOUND: "User not found",
+  INCORRECT_PASSWORD: "Incorrect password",
+  AUTH_HEADER_MISSING: "Authentication header is missing",
+  INVALID_TOKEN: "Invalid Token",
+  UNAUTHORIZED_ACCESS: "Unauthorised access",
+  TOKEN_EXPIRED: "Token is expired",
+  NAME_IS_REQUIRED:"Name is required",
+  NAME_MUST_BE_STRING:"Name must be string",
+  NAME_MUST_BE_LESSTHAN_25:"Name must be between 3 to 25 character in length",
+  PASSWORD_IS_REQUIRED:"Password is required",
+  PASSWORD_MUST_BE_STRING:"Password must be string",
+  PASSWORD_MUST_BE_LESSTHAN_17:"Password must be betwwen 8 to 16 character in length",
 };

@@ -25,8 +25,8 @@ Set up the environment variables by creating a .env file at the project root wit
 
 
 //Copy code
-DATABASE_NAME=BrewApps
-MONGO_CONNECTION_URL='mongodb+srv://kelbinjacob:Vadakkan1234@cluster0.9ihj6ua.mongodb.net/BrewApps'
+DATABASE_NAME=Node
+MONGO_CONNECTION_URL='mongodb+srv://kelbinjacob:Vadakkan1234@cluster0.9ihj6ua.mongodb.net/Node'
 
 
 Start the application by running:
@@ -36,12 +36,19 @@ Usage
 The server will start on the specified port (usually port 3000 by default). The CRUD operations can be performed using appropriate API endpoints.
 
 API Endpoints
+//Book
+POST /book/addBook: Create a new book
+PUT /book/updateBook/:id: Update a book by ID
+DELETE /book/deleteBook/:id:  Delete a book by ID
+GET /book/getAllBooks: Retrieve all books
+GET /book/getBookById:  Retrieve book by id
+//user
+POST /user/addUser: Create a new user
+POST /user/login: user login
 
-POST /user/addBook: Create a new book
-PUT /user/updateBook/:id: Update a book by ID
-DELETE /user/deleteBook/:id:  Delete a book by ID
-GET /user/getAllBooks: Retrieve all books
-GET /user/getBookById:  Retrieve book by id
+role:
+ADMIN:0,
+USER:1,
 
 
 Technologies Used
